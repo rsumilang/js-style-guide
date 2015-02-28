@@ -8,7 +8,8 @@
   "funcscope"     : true,
   "globals"       : {
     /* RequireJS */
-    "define"      : false
+    "define"      : false,
+    "require"     : false
   },
   "indent"        : 2,
   "newcap"        : true,
