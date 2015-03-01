@@ -34,6 +34,8 @@
     "no-nested-ternary"       : 1,
     "no-space-before-semi"    : 2,
     "no-trailing-spaces"      : 2,
+    "no-undef"                : 1,
+    "no-undefined"            : 2,
     "no-use-before-define"    : [2, "nofunc"],
     "no-unused-expressions"   : 1,
     "no-unused-vars"          : 1,
