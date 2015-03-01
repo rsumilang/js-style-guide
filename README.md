@@ -4,15 +4,15 @@ This JavaScript style guide is based off best practices, what's popular, and
 sprinkled with a bit of personal preference. The goal of this project is to
 help keep code uniformity amongst projects and team members.
 
-You will find  a *.jshintrc* and *.jcsrc* file in this repo that can be used
-with your IDE's and/or linting tools.
+You will find  a *.jshintrc*, *.eslintrc* and *.jcsrc* file in this repo that
+can be used with your IDE's and/or linting tools.
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)
 
 ## Usage
 
-Find the relative setup **.md** file for your IDE and follow the instructions.
-Configurations can also be used by CLI tools.
+Find the relative setup **.md** file for your IDE in the [docs](docs/) folder
+and follow the instructions. Configurations can also be used by CLI tools.
 
 Please submit additional IDE setup files by forking and making a pull request.
 
