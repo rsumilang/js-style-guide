@@ -10,6 +10,7 @@
   ],
   "requireOperatorBeforeLineBreak": true,
   "requireCamelCaseOrUpperCaseIdentifiers": true,
+  "requireCapitalizedConstructors": true
   "maximumLineLength": {
     "value": 80,
     "allowComments": true,

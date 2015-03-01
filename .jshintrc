@@ -1,5 +1,4 @@
 {
-  "camelcase"     : true,
   "curly"         : true,
   "eqeqeq"        : true,
   "es3"           : false,
@@ -8,15 +7,10 @@
   "funcscope"     : true,
   "globals"       : {
     /* RequireJS */
-    "define"      : false,
-    "require"     : false
+    "define"      : false
   },
-  "indent"        : 2,
-  "newcap"        : true,
-  "quotmark"      : "single",
   "maxdepth"      : 3,
   "maxstatements" : 15,
-  "maxlen"        : 80,
   "undef"         : true,
   "unused"        : true,
 
@@ -25,5 +19,6 @@
   "strict"        : true,
 
   /* Environments */
-  "mocha"         : true
+  "mocha"         : true,
+  "node"          : true
 }
