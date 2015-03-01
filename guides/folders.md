@@ -3,14 +3,14 @@
 Folders should be lower cased and use dashes to separate words in
 identifiers for better legibility.
 
-Right:
+*Right:*
 
-  my-package
+    my-package
 
-Wrong:
+*Wrong:*
 
-  myPackage
+    myPackage
 
-Wrong:
+*Wrong:*
 
-  my_package
+    my_package
