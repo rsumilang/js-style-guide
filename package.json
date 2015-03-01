@@ -1,0 +1,34 @@
+{
+  "name": "js-style-guide",
+  "version": "0.0.1",
+  "description": "JavaScript style guide.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rsumilang/js-style-guide"
+  },
+  "keywords": [
+    "js",
+    "style",
+    "guide",
+    "eslint",
+    "jshint",
+    "jscs"
+  ],
+  "author": "Richard Sumilang",
+  "license": "Creative Commons License 3.0",
+  "bugs": {
+    "url": "https://github.com/rsumilang/js-style-guide/issues"
+  },
+  "homepage": "https://github.com/rsumilang/js-style-guide",
+  "dependencies": {
+    "jscs": "^1.11.3",
+    "eslint": "^0.15.1"
+  }
+}
