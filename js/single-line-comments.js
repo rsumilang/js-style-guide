@@ -8,7 +8,7 @@
 // Right
 
 // 'ID_SOMETHING=VALUE' -> ['ID_SOMETHING=VALUE', 'SOMETHING', 'VALUE']
-var matches = item.match(/ID_([^\n]+)=([^\n]+)/));
+var matches = item.match(/ID_([^\n]+)=([^\n]+)/);
 
 var isSessionValid = (session.expires < Date.now());
 if (isSessionValid) {

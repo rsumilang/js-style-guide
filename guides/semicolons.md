@@ -19,6 +19,8 @@ var bad = 'bad'
 *Wrong:*
 
 ```js
-return
-  {}
+function test() {
+  return
+    {}
+}
 ```

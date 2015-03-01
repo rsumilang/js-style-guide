@@ -11,5 +11,7 @@ var good = 'good';
 var bad = 'bad'
 
 // Wrong
-return
-  {}
+function test() {
+  return
+    {}
+}
