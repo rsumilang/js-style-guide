@@ -17,7 +17,6 @@ function File() {
 }
 File.FULL_PERMISSIONS = 0777;
 
-
 // Wrong
 
 const SECOND = 1 * 1000;

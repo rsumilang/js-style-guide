@@ -11,7 +11,7 @@ the same chain.
 
 ```js
 User
-  .findOne({ name: 'foo' })
+  .findOne({name: 'foo'})
   .populate('bar')
   .exec(function(err, user) {
     return true;
@@ -22,24 +22,24 @@ User
 
 ```js
 User
-  .findOne({ name: 'foo' })
+  .findOne({name: 'foo'})
   .populate('bar')
   .exec(function(err, user) {
     return true;
   });
 
-User.findOne({ name: 'foo' })
+User.findOne({name: 'foo'})
   .populate('bar')
   .exec(function(err, user) {
     return true;
   });
 
-User.findOne({ name: 'foo' }).populate('bar')
+User.findOne({name: 'foo'}).populate('bar')
   .exec(function(err, user) {
     return true;
   });
 
-User.findOne({ name: 'foo' }).populate('bar')
+User.findOne({name: 'foo'}).populate('bar')
   .exec(function(err, user) {
     return true;
   });

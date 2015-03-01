@@ -3,4 +3,3 @@
  *
  * @link https://github.com/rsumilang/js-style-guide/guides/eval.md
  */
-

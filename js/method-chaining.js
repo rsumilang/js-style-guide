@@ -9,7 +9,7 @@
 
 // Right
 User
-  .findOne({ name: 'foo' })
+  .findOne({name: 'foo'})
   .populate('bar')
   .exec(function(err, user) {
     return true;
@@ -17,24 +17,24 @@ User
 
 // Wrong
 User
-  .findOne({ name: 'foo' })
+  .findOne({name: 'foo'})
   .populate('bar')
   .exec(function(err, user) {
     return true;
   });
 
-User.findOne({ name: 'foo' })
+User.findOne({name: 'foo'})
   .populate('bar')
   .exec(function(err, user) {
     return true;
   });
 
-User.findOne({ name: 'foo' }).populate('bar')
+User.findOne({name: 'foo'}).populate('bar')
   .exec(function(err, user) {
     return true;
   });
 
-User.findOne({ name: 'foo' }).populate('bar')
+User.findOne({name: 'foo'}).populate('bar')
   .exec(function(err, user) {
     return true;
   });
