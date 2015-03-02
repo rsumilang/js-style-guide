@@ -7,7 +7,7 @@
   },
   "rules": {
     "block-scoped-var"        : 2,
-    "brace-style"             : [2, "1tbs"],
+    "brace-style"             : [1, "1tbs"],
     "camelcase"               : 2,
     "curly"                   : 2,
     "eol-last"                : 2,
@@ -36,6 +36,7 @@
     "no-trailing-spaces"      : 2,
     "no-undef"                : 1,
     "no-undefined"            : 2,
+    "no-underscore-dangle"    : 1,
     "no-use-before-define"    : [2, "nofunc"],
     "no-unused-expressions"   : 1,
     "no-unused-vars"          : 1,
@@ -47,7 +48,7 @@
     "space-after-keywords"    : [2, "always"],
     "space-in-brackets"       : [2, "never"],
     "space-unary-ops"         : 2,
-    "strict"                  : [2, "function"],
+    "strict"                  : 2,
     "yoda"                    : [2, "never"]
   }
 }

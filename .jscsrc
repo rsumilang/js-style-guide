@@ -10,7 +10,7 @@
   ],
   "requireOperatorBeforeLineBreak": true,
   "requireCamelCaseOrUpperCaseIdentifiers": true,
-  "requireCapitalizedConstructors": true
+  "requireCapitalizedConstructors": true,
   "maximumLineLength": {
     "value": 80,
     "allowComments": true,
@@ -19,12 +19,12 @@
   "validateIndentation": 2,
   "validateQuoteMarks": "'",
 
+  "disallowKeywords": ["with"],
   "disallowMultipleLineStrings": true,
   "disallowMixedSpacesAndTabs": true,
   "disallowTrailingWhitespace": true,
   "disallowSpaceAfterPrefixUnaryOperators": true,
   "disallowMultipleVarDecl": true,
-  "disallowKeywordsOnNewLine": ["else"],
 
   "requireSpaceAfterKeywords": [
     "if",
@@ -46,7 +46,12 @@
     "<=", "<", ">", "!=", "!=="
   ],
   "requireSpaceAfterBinaryOperators": true,
-  "requireSpacesInConditionalExpression": true,
+  "requireSpacesInConditionalExpression": {
+    "afterTest": true,
+    "beforeConsequent": true,
+    "afterConsequent": true,
+    "beforeAlternate": true
+  },
   "requireSpaceBeforeBlockStatements": true,
   "requireSpacesInForStatement": true,
   "requireLineFeedAtFileEnd": true,
