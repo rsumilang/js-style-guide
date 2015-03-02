@@ -15,9 +15,9 @@
     "indent"                  : [2, 2],
     "func-names"              : 1,
     "guard-for-in"            : 1,
-    "key-spacing"             : [2, {
+    "key-spacing"             : [1, {
                                     "align"       : "colon",
-                                    "beforeColon" : false,
+                                    "beforeColon" : true,
                                     "afterColon"  : true
                                 }],
     "max-depth"               : [1, 3],
