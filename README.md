@@ -34,7 +34,9 @@ feature, then apply the common style guide that you use among other projects.
 were used as the initial sources under the [Creative Commons License v3.0] while
 putting together this guide. Tweaks were made to the style guides to fit the
 practices I've used most in my personal and professional work environments.
+Additional considerations were taken from [Crockford's Code Conventions].
 
 [Felix Geisendörfer's Node Style Guide]: https://github.com/felixge/node-style-guide
 [Google's JavaScript Style Guide]: http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
 [Creative Commons License v3.0]: http://creativecommons.org/licenses/by/3.0/
+[Crockford's Code Conventions]: http://javascript.crockford.com/code.html
